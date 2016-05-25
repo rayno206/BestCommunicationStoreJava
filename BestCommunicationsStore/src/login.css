@@ -1,0 +1,29 @@
+#gridPane {
+ -fx-background-color:  linear-gradient(#46b99c, #4d94b3);
+ -fx-border-color: white;
+ -fx-border-radius: 10;
+ -fx-padding: 10 10 10 10;
+ -fx-background-radius: 10;
+ 
+}
+
+#border {
+ -fx-background-color:  linear-gradient(#4d94b3,#3c64c4 );
+ 
+}
+
+#btnLogin, #btnCancel {
+    -fx-background-radius: 30, 30, 29, 28;
+    -fx-padding: 3px 10px 3px 10px;
+    -fx-background-color: linear-gradient(orange, orangered );
+}
+
+#btnCust, #btnInvt, #btnSales, #btnLogout, #btnBack {
+    -fx-background-radius: 50, 50, 49, 49;
+    -fx-padding: 6px 20px 6px 20px;
+    -fx-background-color: linear-gradient(orange, orangered );
+}
+
+#text {
+ -fx-fill:  linear-gradient(#ffffff , orangered);
+}
